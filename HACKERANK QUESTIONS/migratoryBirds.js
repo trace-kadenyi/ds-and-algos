@@ -22,5 +22,5 @@ const migratoryBirds = (arr) => {
 };
 
 // console.log(migratoryBirds([1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 1])); // Output: 1
-// console.log(migratoryBirds([1, 4, 4, 4, 5, 3, 3, 3, 2, 2])); // Output: 4clear
+// console.log(migratoryBirds([1, 4, 4, 4, 5, 3, 3, 3, 2, 2])); // Output: 3
 console.log(migratoryBirds([5, 5, 5, 4, 4, 4, 3, 3])); // Output: 4
