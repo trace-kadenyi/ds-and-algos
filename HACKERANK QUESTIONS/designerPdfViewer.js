@@ -10,7 +10,8 @@ const designerPdfViewer = (h, word) => {
   // find heights of the word
   let heights = word.split("").map((w) => store[w]);
 
-  return Math.max(...heights) * heights.length;
+let area = Math.max(...heights) * heights.length;
+return area;
 };
 
 (h = [
